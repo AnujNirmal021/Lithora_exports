@@ -31,9 +31,9 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/assets/generated/lithora-logo-new-transparent.dim_200x200.png"
+                src={`${import.meta.env.BASE_URL}lithora-logo.png`}
                 alt="Lithora Exports"
-                className="h-10 w-10 object-contain"
+                className="h-20 sm:h-28 lg:h-36 w-auto"
               />
               <h3 className="text-xl font-bold text-white">Lithora Exports</h3>
             </div>

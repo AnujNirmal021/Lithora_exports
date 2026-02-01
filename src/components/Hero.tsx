@@ -22,9 +22,9 @@ export default function Hero({ onNavigate }: HeroProps) {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="mb-8">
           <img
-            src="/assets/generated/lithora-logo-new-transparent.dim_200x200.png"
+            src={`${import.meta.env.BASE_URL}lithora-logo.png`}
             alt="Lithora Exports"
-            className="h-24 w-24 sm:h-32 sm:w-32 object-contain mx-auto mb-6"
+            className="h-28 w-auto mx-auto mb-6"
             loading="eager"
           />
         </div>

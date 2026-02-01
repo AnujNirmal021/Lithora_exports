@@ -51,11 +51,13 @@ export default function GlobalReach() {
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-16 bg-white">
           <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
             <img
-              src="/assets/generated/world-map-highres-1920.png"
-              srcSet="/assets/generated/world-map-highres-1920.png 1920w, /assets/generated/world-map-highres-1200.png 1200w, /assets/generated/world-map-transparent.dim_600x400.png 600w"
-              sizes="(min-width: 1024px) 100vw, 100vw"
-              alt="Market Map"
-              className="absolute top-0 left-0 w-full h-full object-cover"
+              src={`${import.meta.env.BASE_URL}Market_map-1.png`}
+              alt="Global Presence Map"
+              className="w-full rounded-xl shadow-lg"
+              //srcSet="/assets/generated/world-map-highres-1920.png 1920w, /assets/generated/world-map-highres-1200.png 1200w, /assets/generated/world-map-transparent.dim_600x400.png 600w"
+              //sizes="(min-width: 1024px) 100vw, 100vw"
+              //alt="Market Map"
+              //className="absolute top-0 left-0 w-full h-full object-cover"
               loading="lazy"
             />
           </div>

@@ -147,9 +147,9 @@ export default function B2B() {
             <CardContent className="p-8">
               <div className="relative">
                 <img
-                  src="/assets/generated/interactive-world-map.dim_800x500.png"
+                  src={`${import.meta.env.BASE_URL}Market_map-1.png`}
                   alt="Global Presence Map"
-                  className="w-full h-auto rounded-lg"
+                  className="w-full rounded-xl shadow-lg"
                   loading="lazy"
                 />
               </div>

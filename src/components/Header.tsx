@@ -49,9 +49,9 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
             <img
-              src="/assets/generated/lithora-logo-new-transparent.dim_200x200.png"
+              src={`${import.meta.env.BASE_URL}lithora-logo.png`}
               alt="Lithora Exports"
-              className="h-14 w-14 object-contain"
+              className="h-10 w-auto"
             />
             <div>
               <h1 className="text-xl sm:text-2xl font-bold text-[#2C4A5E] dark:text-stone-100 tracking-tight">

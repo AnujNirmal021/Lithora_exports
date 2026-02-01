@@ -106,9 +106,9 @@ export default function About() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-shrink-0">
                 <img
-                  src="/assets/generated/lithora-logo-new-transparent.dim_200x200.png"
+                  src={`${import.meta.env.BASE_URL}lithora-logo.png`}
                   alt="Lithora Exports"
-                  className="h-32 w-32 object-contain"
+                  className="h-20 sm:h-28 lg:h-36 w-auto"
                   loading="lazy"
                 />
               </div>
