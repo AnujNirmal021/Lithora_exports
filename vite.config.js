@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Lithora_exports/',   // ⭐ THIS IS CRITICAL
+  base: '/',   // ⭐ THIS IS CRITICAL
   plugins: [react()],
   resolve: {
     alias: {
