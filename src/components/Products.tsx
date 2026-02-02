@@ -1,63 +1,64 @@
 export default function Products() {
+  const base = import.meta.env.BASE_URL;
+
   const productImages = [
     {
-      image: 'assets/tan-brown-granite.jpg',
+      image: `${base}assets/tan-brown-granite.jpg`,
       alt: 'Tan Brown Granite',
       caption: 'Tan Brown Granite',
     },
-
     {
-      image: 'assets/aish-grey-granite.jpg',
+      image: `${base}assets/aish-grey-granite.jpg`,
       alt: 'Aish Grey Granite',
       caption: 'Aish Grey Granite',
     },
     {
-      image: 'assets/slate.jpg',
+      image: `${base}assets/kadappa-black.jpg`,
       alt: 'Slate',
       caption: 'Slate',
     },
     {
-      image: 'assets/tandur-grey.jpg',
+      image: `${base}assets/tandur-grey.jpg`,
       alt: 'Tandur Grey',
       caption: 'Tandur Grey',
     },
     {
-      image: 'assets/absolute-black-granite.jpg',
+      image: `${base}assets/absolute-black-granite.jpg`,
       alt: 'Absolute Black Granite',
       caption: 'Absolute Black Granite',
     },
     {
-      image: 'assets/galaxy-black.jpg',
+      image: `${base}assets/galaxy-black.jpg`,
       alt: 'Galaxy Black Granite',
       caption: 'Galaxy Black Granite',
     },
     {
-      image: 'assets/kadappa-black.jpg',
+      image: `${base}assets/slate.jpg`,
       alt: 'Kadappa Black',
       caption: 'Kadappa Black',
     },
     {
-      image: 'assets/calacatta-gold-marble.jpg',
+      image: `${base}assets/calacatta-gold-marble.jpg`,
       alt: 'Calacatta Gold Marble',
       caption: 'Calacatta Gold Marble',
     },
     {
-      image: 'assets/carrara-italian-marble.jpg',
+      image: `${base}assets/carrara-italian-marble.jpg`,
       alt: 'Carrara Italian Marble',
       caption: 'Carrara Italian Marble',
     },
     {
-      image: 'assets/ash-black-granite.jpg',
+      image: `${base}assets/ash-black-granite.jpg`,
       alt: 'Ash Black Granite',
       caption: 'Ash Black Granite',
     },
     {
-      image: 'assets/engineered-quartz.jpg',
+      image: `${base}assets/engineered-quartz.jpg`,
       alt: 'Engineered Quartz',
       caption: 'Engineered Quartz',
     },
     {
-      image: 'assets/botochino-italian-marble.jpg',
+      image: `${base}assets/botochino-italian-marble.jpg`,
       alt: 'Botochino Italian Marble',
       caption: 'Botochino Italian Marble',
     },
@@ -75,7 +76,6 @@ export default function Products() {
           </p>
         </div>
 
-        {/* Product Gallery - Compact Grid Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {productImages.map((product, index) => (
             <div
@@ -90,6 +90,7 @@ export default function Products() {
                   loading="lazy"
                 />
               </div>
+
               <div className="p-3 bg-white dark:bg-stone-800">
                 <p className="text-sm font-medium text-stone-900 dark:text-stone-100 text-center">
                   {product.caption}
