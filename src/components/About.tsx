@@ -106,7 +106,7 @@ export default function About() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-shrink-0">
                 <img
-                  src={`${import.meta.env.BASE_URL}lithora-logo.png`}
+                  src={`assets/owner-logo.jpg`}
                   alt="Lithora Exports"
                   className="h-20 sm:h-28 lg:h-36 w-auto"
                   loading="lazy"
@@ -181,7 +181,7 @@ export default function About() {
         {/* Quarry Image */}
         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
           <img
-            src="/assets/generated/marble-quarry.dim_800x500.jpg"
+            src="assets/marble-quarry.png"
             alt="Marble Quarry Operations"
             className="w-full h-64 sm:h-96 object-cover"
             loading="lazy"

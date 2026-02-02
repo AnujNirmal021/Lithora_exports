@@ -1,62 +1,63 @@
 export default function Products() {
   const productImages = [
     {
-      image: '/assets/Tan Brown Granite.jpg',
+      image: 'assets/tan-brown-granite.jpg',
       alt: 'Tan Brown Granite',
       caption: 'Tan Brown Granite',
     },
+
     {
-      image: '/assets/Aish grey granite.jpg',
+      image: 'assets/aish-grey-granite.jpg',
       alt: 'Aish Grey Granite',
       caption: 'Aish Grey Granite',
     },
     {
-      image: '/assets/11.-Kadappa-Black-Limestone-rotated-1.jpg',
+      image: 'assets/slate.jpg',
       alt: 'Slate',
       caption: 'Slate',
     },
     {
-      image: '/assets/Grey Tandur.jpg',
+      image: 'assets/tandur-grey.jpg',
       alt: 'Tandur Grey',
       caption: 'Tandur Grey',
     },
     {
-      image: '/assets/Absolute black granite-1.jpg',
+      image: 'assets/absolute-black-granite.jpg',
       alt: 'Absolute Black Granite',
       caption: 'Absolute Black Granite',
     },
     {
-      image: '/assets/Galaxy black granite.jpg',
+      image: 'assets/galaxy-black.jpg',
       alt: 'Galaxy Black Granite',
       caption: 'Galaxy Black Granite',
     },
     {
-      image: '/assets/Slate.jpg',
+      image: 'assets/kadappa-black.jpg',
       alt: 'Kadappa Black',
       caption: 'Kadappa Black',
     },
     {
-      image: '/assets/Calacatta gold marble.jpg',
+      image: 'assets/calacatta-gold-marble.jpg',
       alt: 'Calacatta Gold Marble',
       caption: 'Calacatta Gold Marble',
     },
     {
-      image: '/assets/Calacatta italian marble.jpg',
-      alt: 'Calacatta Italian Marble',
-      caption: 'Calacatta Italian Marble',
+      image: 'assets/carrara-italian-marble.jpg',
+      alt: 'Carrara Italian Marble',
+      caption: 'Carrara Italian Marble',
     },
     {
-      image: '/assets/Ash Black Granite.jpg',
+      image: 'assets/ash-black-granite.jpg',
       alt: 'Ash Black Granite',
       caption: 'Ash Black Granite',
     },
     {
-      image: '/assets/Engineered Quartz.jpg',
+      image: 'assets/engineered-quartz.jpg',
       alt: 'Engineered Quartz',
       caption: 'Engineered Quartz',
     },
     {
-      image: '/assets/Botochino Italian Marble.jpg',
+      image: 'assets/botochino-italian-marble.jpg',
       alt: 'Botochino Italian Marble',
       caption: 'Botochino Italian Marble',
     },
