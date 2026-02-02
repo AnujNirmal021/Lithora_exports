@@ -42,6 +42,13 @@ export default function Contact() {
       link: 'https://drive.google.com/drive/folders/15f9FXMrnyxEuO7m4b0PiVJg1sNUArUzC',
     },
     {
+      title: 'ISO Certificate (Quality Management System)',
+      subtitle: 'ISO 9001:2015',
+      description: 'This certificate demonstrates our commitment to quality management and continuous improvement.',
+      buttonText: 'View Certificate',
+      link: 'https://drive.google.com/file/d/1PviLar90SJBaY7UYLalPV2DZJYxbW-oY/view?usp=sharing',
+    },
+    {
       title: 'Business Registration Certificate',
       subtitle: 'Registration Certificate',
       description: 'Firm Name: LITHORA EXPORTS LLP. Valid business registration and compliance documentation.',
