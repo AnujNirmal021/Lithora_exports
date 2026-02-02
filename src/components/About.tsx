@@ -6,27 +6,27 @@ export default function About() {
     {
       year: '1968',
       title: 'Foundation',
-      description: 'Mr. Santosh Harlekar establishes Lithora Exports in Maharashtra, beginning our journey in natural stone trading.',
+      description: 'Mr. Iranna Laxman Harlekar as a timber/wood trading buisness.',
     },
     {
-      year: '1980s',
-      title: 'Regional Expansion',
-      description: 'Expanded operations across India, establishing key partnerships with quarries and processing facilities.',
+      year: '1972',
+      title: 'Expansion Phase-1',
+      description: 'Entry into natural stones with Rough Shahbadi-Yellow Limestone.',
     },
     {
-      year: '1990s',
-      title: 'Global Markets',
-      description: 'Entered international markets, beginning exports to Middle East and European countries.',
+      year: '1980',
+      title: 'Expansion Phase-2',
+      description: 'Expansion into Tandur Grey and Kadappa Black limestone.',
     },
     {
-      year: '2000s',
-      title: 'Infrastructure Growth',
-      description: 'Invested in advanced processing equipment and established modern logistics networks.',
+      year: '1997',
+      title: 'Carrying Legacy Forward',
+      description: 'Mr. Santosh Harlekar joined the buisness, initiating diversification and modernization.',
     },
     {
-      year: '2010s',
-      title: 'Digital Transformation',
-      description: 'Modernized operations with technology integration and expanded to Asian markets including Vietnam.',
+      year: '2003',
+      title: 'Transformation',
+      description: 'Transition into direct exports and global sourcing of natural stones, marbles, granites and interior materials.',
     },
     {
       year: 'Present',
@@ -114,10 +114,10 @@ export default function About() {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-stone-900 dark:text-stone-100 mb-3">
-                  Founded by Mr. Santosh Harlekar
+                  Foundation  of Lithora Exports
                 </h3>
                 <p className="text-stone-700 dark:text-stone-300 leading-relaxed mb-4">
-                  In 1968, Mr. Santosh Harlekar established Lithora Exports with a vision to showcase Maharashtra's 
+                  In 1968, Mr. Iranna Harlekar, f/o Mr. Santosh Harlekar established Lithora Exports with a vision to showcase Maharashtra's 
                   natural stone excellence to the world. His pioneering spirit and commitment to quality laid the 
                   foundation for what has become one of the region's most respected stone trading enterprises.
                 </p>
