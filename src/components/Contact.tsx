@@ -39,7 +39,7 @@ export default function Contact() {
       subtitle: 'IEC: AAMFL8734C',
       description: 'Issued by: Directorate General of Foreign Trade, Government of India. Valid and verified certificate for B2B trading operations.',
       buttonText: 'View Certificate',
-      link: 'https://drive.google.com/drive/folders/15f9FXMrnyxEuO7m4b0PiVJg1sNUArUzC',
+      link: 'https://drive.google.com/file/d/1i0PQOLsAuwQ21dFooGOzRiQaIqM6aTsP/view?usp=sharing',
     },
     {
       title: 'ISO Certificate (Quality Management System)',
@@ -53,7 +53,7 @@ export default function Contact() {
       subtitle: 'Registration Certificate',
       description: 'Firm Name: LITHORA EXPORTS LLP. Valid business registration and compliance documentation.',
       buttonText: 'View Registration',
-      link: 'https://drive.google.com/drive/folders/15f9FXMrnyxEuO7m4b0PiVJg1sNUArUzC',
+      link: 'https://drive.google.com/file/d/1VeUJ9buVDSVuKkD1zFAIK7CrEyhuLq5y/view?usp=sharing',
     },
   ];
 
