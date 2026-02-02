@@ -1,18 +1,8 @@
-import { Heart } from 'lucide-react';
-import { SiFacebook, SiInstagram, SiLinkedin, SiX } from 'react-icons/si';
-
 interface FooterProps {
   onNavigate: (section: string) => void;
 }
 
 export default function Footer({ onNavigate }: FooterProps) {
-  const socialLinks = [
-    { icon: SiFacebook, href: '#', label: 'Facebook' },
-    { icon: SiX, href: '#', label: 'X (Twitter)' },
-    { icon: SiInstagram, href: '#', label: 'Instagram' },
-    { icon: SiLinkedin, href: '#', label: 'LinkedIn' },
-  ];
-
   const quickLinks = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About Us' },
@@ -25,34 +15,44 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   return (
-    <footer className="bg-stone-900 dark:bg-black text-stone-300">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+    <footer className="bg-[#1c1a18] text-stone-300">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-14">
+
+        {/* Top Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+          {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center space-x-3 mb-5">
               <img
                 src={`${import.meta.env.BASE_URL}lithora-logo.png`}
                 alt="Lithora Exports"
-                className="h-20 sm:h-28 lg:h-36 w-auto"
+                className="h-20 w-auto"
               />
-              <h3 className="text-xl font-bold text-white">Lithora Exports</h3>
+              <h3 className="text-xl font-bold text-white">
+                Lithora Exports
+              </h3>
             </div>
-            <p className="text-sm text-stone-400 leading-relaxed mb-4">
-              Leading Maharashtra's Natural Stone & Global Trading Excellence Since 1968
-            </p>
-            <p className="text-xs text-stone-500">
-              Global Natural Stone & Trade Solutions
+
+            <p className="text-sm text-stone-400 leading-relaxed max-w-sm">
+              Leading Maharashtra's Natural Stone & Global Trading Excellence
+              since 1968. Trusted worldwide for premium stone supply and export solutions.
             </p>
           </div>
 
+
+          {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
-            <ul className="grid grid-cols-2 gap-2">
+            <h4 className="text-lg font-semibold text-white mb-5">
+              Quick Links
+            </h4>
+
+            <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.id}>
                   <button
                     onClick={() => onNavigate(link.id)}
-                    className="text-sm text-stone-400 hover:text-white transition-colors"
+                    className="text-sm text-stone-400 hover:text-[#8B7355] transition-colors"
                   >
                     {link.label}
                   </button>
@@ -61,45 +61,31 @@ export default function Footer({ onNavigate }: FooterProps) {
             </ul>
           </div>
 
+
+          {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Connect With Us</h4>
-            <div className="flex space-x-4 mb-6">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-full bg-stone-800 hover:bg-stone-700 flex items-center justify-center transition-colors"
-                >
-                  <social.icon className="h-5 w-5 text-stone-300" />
-                </a>
-              ))}
-            </div>
-            <div className="text-sm text-stone-400">
-              <p className="mb-1">Maharashtra, India</p>
-              <p className="mb-1">santoshharlekar@gmail.com</p>
-              <p>+91 9822346820</p>
+            <h4 className="text-lg font-semibold text-white mb-5">
+              Contact Information
+            </h4>
+
+            <div className="space-y-2 text-sm text-stone-400">
+              <p>Maharashtra, India</p>
+              <p>Email: santoshharlekar@gmail.com</p>
+              <p>Phone: +91 9822346820</p>
+              <p>Business Hours: Mon – Sat | 9:00 AM – 6:00 PM</p>
             </div>
           </div>
+
         </div>
 
-        <div className="border-t border-stone-800 pt-8">
-          <p className="text-center text-sm text-stone-400">
-            © Lithora Exports | Global Natural Stone & Trade Solutions | Since 1968
-          </p>
-          <p className="text-center text-sm text-stone-500 mt-2">
-            Built with{' '}
-            <Heart className="inline h-4 w-4 text-red-500 fill-red-500" /> using{' '}
-            <a
-              href="https://caffeine.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-stone-400 hover:text-white transition-colors"
-            >
-              caffeine.ai
-            </a>
+
+        {/* Bottom Line */}
+        <div className="border-t border-stone-800 mt-12 pt-6 text-center">
+          <p className="text-xs text-stone-500">
+            © {new Date().getFullYear()} Lithora Exports. All Rights Reserved.
           </p>
         </div>
+
       </div>
     </footer>
   );
