@@ -32,11 +32,11 @@ export default function Hero({ onNavigate }: HeroProps) {
           <img
             src={`${import.meta.env.BASE_URL}lithora-logo.png`}
             alt="Lithora Exports"
-            className="h-28 w-auto mx-auto mb-6"
+            className="h-40 sm:h-48 lg:h-56 w-auto mx-auto"
             loading="eager"
           />
         </div>
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 tracking-tight">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2C4A5E] mb-6 tracking-tight">
           Lithora Exports
         </h1>
         <p className="text-xl sm:text-2xl lg:text-3xl text-stone-800 mb-8 font-light leading-relaxed">
