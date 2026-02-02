@@ -6,7 +6,7 @@ export default function About() {
     {
       year: '1968',
       title: 'Foundation',
-      description: 'Mr. Iranna Laxman Harlekar as a timber/wood trading buisness.',
+      description: 'Mr. Iranna Laxman Harlekar started buisness in timber/wood trading.',
     },
     {
       year: '1972',
